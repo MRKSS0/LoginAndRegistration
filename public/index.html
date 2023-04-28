@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-secondary-subtle">
+    <div class="container-xxl mt-5">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Login System</a>
+            </div>
+        </nav>
+        <div class="card w-100" style="border-radius: 0px">
+            <div class="card-body fs-3 fw-light">
+                A system of log-in for you. Test it!
+
+                <div class="d-flex m-auto justify-content-evenly">
+                    <form>
+                        <div class="input-group mt-3 mb-3 w-100">
+                            <span class="input-group-text" id="basic-addon1">👾</span>
+                            <input id="user" name="username" type="text" class="form-control" placeholder="Username" required>
+                          </div>
+                          
+                          <div class="input-group mb-3 w-100">
+                            <input id="mail" type="mail" class="form-control" placeholder="Recipient's mail" required>
+                            <span name="mail" class="input-group-text" id="basic-addon2">✉️</span>
+                          </div>
+
+                          <div class="input-group mb-3 w-100">
+                            <span class="input-group-text" id="basic-addon2">🔐</span>
+                            <input id="password" name="password" type="password" class="form-control" placeholder="Password" aria-label="Password" required>
+                          </div>
+                          
+                          <button id="submit" type="submit" class="btn btn-success w-100">Success</button>
+
+                          <a href="/register" class="fs-6">Sign in</a>
+                          <p class="fs-6 text-center mt-3">ToS: Wut iz da tOs?</p>
+                    </form>
+    
+                    <div class="description fs-3 w-50 fw-lighter text-center">
+                        In the past, I did a login and register with a poor frontend <br>(I am not good enough; <u>I am still learning</u>).<br> Now that I made this system with the Bootstrap library, I hope you like it. Enjoy!
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card-footer bg-dark text-white" style="border-radius: 0px">
+                System made by MRK with ♥️
+            </div>
+            
+        </div>
+        <div class="alert alert-danger d-none" id="alert" style="border-radius: 0px" role="alert">
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="./client/ajax.lg.js"></script>
+
+</body>
+</html>
