@@ -6,15 +6,14 @@ I used bootstrap and I made requests throught AJAX
 
 ## Documentation [How to use it?]
 
-When you downloaded it, just go to in folder and run
-
-
+When you downloaded it, import users.sql on your database, then
+go to the folder and run for install all modules
 
 ```bash
   npm i
 ```
 
-Then configure .env (Just read) and run
+And configure .env (Just read) and run
 
 ```bash
   node main.js
