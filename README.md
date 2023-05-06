@@ -23,6 +23,6 @@ Then configure .env (Just read) and run
 And enjoy!
 ## Screenshots
 
-![App Screenshot](https://imgur.com/UwYCPK4.jpg)
+![App Screenshot](https://imgur.com/LMZ9PEw.jpg)
 
-![App Screenshot](https://imgur.com/iqavob4.jpg)
+![App Screenshot](https://imgur.com/ZRMwhN9.jpg)
